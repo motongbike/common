@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">标题</h1>
+		</header>
+		<div class="mui-content">
+			<button type="button" >按钮</button>
+		</div>
+		<script src="js/mui.js"></script>
+		<script src="js/mui.jsonp.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			document.querySelector('button').addEventListener('click', function(event) {
+				var data = {
+					name: 'xiaoming',
+					sex: 'male'
+				};
+				mui.getJSONP('http://192.168.12.74/jsonp.php', data, function(data) {
+					console.log(Array.isArray(data));
+					console.log(data);
+				});
+			}, false);
+		</script>
+	</body>
+
+	
+	
+</html>
