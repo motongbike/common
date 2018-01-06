@@ -1,0 +1,15 @@
+.layui-input{height: 22px;}
+.layui-form-item{margin-bottom: 0px;}
+.layui-form-select dl dd, .layui-form-select dl dt{line-height: 28px;}
+.layui-form-label{padding-top:1px;padding-bottom: 0px;width: 48px;}
+.layui-form-select dl{top:25px;}
+.layui-tab-title .layui-this:after{height: 31px;}
+.layui-tab-title li{line-height:30px;  min-width: 20px;}
+.layui-form-radio i{font-size: 18px;margin-right: 2px;}
+#menu2 li,#menu1 li{padding-top: 3px;  line-height: 15px;padding-bottom: 3px;}
+#menu2 li:hover,#menu1 li:hover{background: #1E9FFF;}
+.layui-form-item .layui-form-checkbox[lay-skin=primary]{margin-top: 1px;}
+.layui-input-block{min-height: 32px;}
+.layui-form-item{margin-top: 10px;}
+.dishen{ width: 48px;padding-right: 10px;margin-left: 92px;}
+.layui-input-inline{margin-left: 0px;float: left;width: 100px;}

@@ -1,0 +1,27 @@
+.layui-form-label{width:40px;}
+.layui-input{ height:24px;border: 1px solid darkgray; }
+.layui-form-item{margin-bottom: 0px;}
+.layui-form-select dl dd, .layui-form-select dl dt{line-height: 28px;}
+.layui-form-select dl{top:25px;}
+.layui-tab-title .layui-this:after{height: 31px;}
+.layui-tab-title li{line-height:30px;min-width: 20px;}
+.layui-tab-title{margin-top:15px;width:445px;height: 30px;}
+.layui-form-radio i{font-size: 18px;margin-right: 2px;}
+#menu2 li,#menu1 li{padding-top: 3px;line-height: 15px;padding-bottom: 3px;  }
+#menu2 li:hover,#menu1 li:hover{  background: #1E9FFF;  }
+.active_li{  background: #1E9FFF;}
+.layui-btn-sm{  margin-left: 20px;  padding-left: 20px;padding-right: 20px  }
+.layui-tab-card{box-shadow:0 0 0 0 white;  border-bottom: 0px;}
+.huitushendu{color: grey;  font-size: 14px;  width: 60px;  text-align: center;  position: absolute;  top: -11px;left: 10px;  background: white;  }
+.kuandu{width:50px;height: 30px;margin-left: 10px;  float: left;  }
+.wenzi{float:left;margin-top: 10px;}
+.dsds{position:relative;top:50%;width:96px; margin:0 auto;  -webkit-transform: translateY(-50%);  -moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);}
+.jieshu{width:100px;height:24px;float:right;margin-right:10px  }
+.qishi{width:100px;height:24px;float:right;margin-right:20px  }
+.huitu{height:25px;float:left;line-height: 25px;  margin-top: 5px }
+.kuandu-input{width: 376px;height: 24px;border: 1px solid grey;}
+.layui-anim {height:90px;}
+.layui-yulan{position:relative;width:150px;padding-left:10px;padding-bottom:10px;padding-top:10px;float: right;border: solid 1px darkgrey;border-radius: 5px;height: 96px }
+.layui-huitu{position:relative;padding-top:15px;float: left;margin-left:5px;border: solid 1px darkgrey;border-radius: 5px;height: 50px;width: 430px;margin-top: 5px}
+.layui-yulanshuxing{width: 35px;text-align: center;position: absolute;top: -11px;left: 10px;background: white}
+.layui-yanglie{position:relative;width:195px;padding-top:15px;float: left;margin-left: 20px;border: solid 1px darkgrey;border-radius: 5px;}
