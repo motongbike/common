@@ -1,2 +1,1 @@
-# cavas
-canvas 绘图实例
+js 库
