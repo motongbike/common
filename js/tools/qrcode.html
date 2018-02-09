@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+            #code canvas {
+                padding: .5em;
+                border: 1px #828282 solid;
+                width: 15em !important;
+                height: 15em !important;
+                color: #66C769 !important;
+            }
+		</style>
+		<script src="../jquery-2.1.4.min.js"></script>
+		<script src="jquery.qrcode.min.js"></script>
+	</head>
+	<body style="text-align: center;">
+		<div id="qrcode" style="margin: auto 0;"></div>
+	</body>
+	<script type="text/javascript">
+		var str = "http://www.baidu.com/";
+        $('#qrcode').qrcode({
+            render : "canvas",
+            text : str
+        });
+	</script>
+	
+</html>
